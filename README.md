@@ -1,6 +1,6 @@
 # calculator-mydani
 
-Sure, here's how you can download and install the calculator library I created in the previous question and how to use it:
+Sure, here's how you can download and install the calculator-mydani I created in the previous question and how to use it:
 
 Step 1: Install the library
 
