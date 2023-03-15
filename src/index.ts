@@ -1,19 +1,25 @@
-export function sum(a: number, b: number): number {
+class Calculator {
+ public sum(a: number, b: number): number {
     return a + b;
   }
   
-  export function subtract(a: number, b: number): number {
+  public subtract(a: number, b: number): number {
     return a - b;
   }
   
-  export function multiply(a: number, b: number): number {
+  public multiply(a: number, b: number): number {
     return a * b;
   }
   
-  export function divide(a: number, b: number): number {
+  public divide(a: number, b: number): number {
     if (b === 0) {
       throw new Error('cannot be divided by zero');
     }
   
     return a / b;
   }
+}
+
+export default Calculator;
+
+
