@@ -1,15 +1,21 @@
-export function sum(a, b) {
-    return a + b;
-}
-export function subtract(a, b) {
-    return a - b;
-}
-export function multiply(a, b) {
-    return a * b;
-}
-export function divide(a, b) {
-    if (b === 0) {
-        throw new Error('cannot be divided by zero');
+var Calculator = /** @class */ (function () {
+    function Calculator() {
     }
-    return a / b;
-}
+    Calculator.prototype.sum = function (a, b) {
+        return a + b;
+    };
+    Calculator.prototype.subtract = function (a, b) {
+        return a - b;
+    };
+    Calculator.prototype.multiply = function (a, b) {
+        return a * b;
+    };
+    Calculator.prototype.divide = function (a, b) {
+        if (b === 0) {
+            throw new Error('cannot be divided by zero');
+        }
+        return a / b;
+    };
+    return Calculator;
+}());
+export default Calculator;

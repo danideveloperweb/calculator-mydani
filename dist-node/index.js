@@ -1,22 +1,23 @@
 "use strict";
 exports.__esModule = true;
-exports.divide = exports.multiply = exports.subtract = exports.sum = void 0;
-function sum(a, b) {
-    return a + b;
-}
-exports.sum = sum;
-function subtract(a, b) {
-    return a - b;
-}
-exports.subtract = subtract;
-function multiply(a, b) {
-    return a * b;
-}
-exports.multiply = multiply;
-function divide(a, b) {
-    if (b === 0) {
-        throw new Error('cannot be divided by zero');
+var Calculator = /** @class */ (function () {
+    function Calculator() {
     }
-    return a / b;
-}
-exports.divide = divide;
+    Calculator.prototype.sum = function (a, b) {
+        return a + b;
+    };
+    Calculator.prototype.subtract = function (a, b) {
+        return a - b;
+    };
+    Calculator.prototype.multiply = function (a, b) {
+        return a * b;
+    };
+    Calculator.prototype.divide = function (a, b) {
+        if (b === 0) {
+            throw new Error('cannot be divided by zero');
+        }
+        return a / b;
+    };
+    return Calculator;
+}());
+exports["default"] = Calculator;
