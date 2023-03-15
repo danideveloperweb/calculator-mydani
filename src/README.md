@@ -4,9 +4,9 @@ Sure, here's how you can download and install the calculator library I created i
 
 Step 1: Install the library
 
-To install the calculator library, you can use the following command in your terminal:
+To install thecalculator-mydani, you can use the following command in your terminal:
 
-npm install calculator-library
+npm install calculator-mydani
 
 This will download and install the library and its dependencies in your project.
 
@@ -14,9 +14,9 @@ Step 2: Import the library
 
 To use the functions in the library, you need to import them in your TypeScript file. You can do this with the following code:
 
-import { sum, subtract, multiply, divide } from 'calculator-library';
+import { sum, subtract, multiply, divide } from 'calculator-mydani';
 
-This imports the sum, subtract, multiply, and divide functions from the calculator-library package.
+This imports the sum, subtract, multiply, and divide functions from thecalculator-mydani package.
 
 Step 3: Use the library
 

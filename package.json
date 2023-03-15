@@ -1,12 +1,17 @@
 {
   "name": "calculator-mydani",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple calculator",
   "keywords": ["calculator, calculator-mydani, calculadora"],
   "license": "MIT",
   "author": "Dani",
   "main":"dist-node/index.js",
   "browser":"dist-browser/index.js",
+  "homepage": "https://github.com/danideveloperweb/calculator-mydani",
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/danideveloperweb/calculator-mydani" 
+  },
   "scripts": {
     "build-browser": "tsc src/index.ts --outDir dist-browser --module ES6",
     "build-node": "tsc src/index.ts --outDir dist-node",
