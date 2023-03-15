@@ -29,4 +29,4 @@ This code calls the sum function with the arguments 2 and 3 and assigns the resu
 
 You can use the other functions in the same way, by calling them with the appropriate arguments.
 
-And that's it! You have now downloaded, installed, and used the calculator library in your TypeScript project.
+And that's it! You have now downloaded, installed, and used the calculator-mydani in your TypeScript project.
